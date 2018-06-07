@@ -64,7 +64,7 @@
 
 <script>
 import Helpers from '../mixins/Helpers';
-
+window.location.hash = '';
 export default {
     mixins: [Helpers],
 
